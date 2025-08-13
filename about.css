@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    overflow: hidden;
+  }
+  
+  a i {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    font-size: 70px;
+    color: rgb(245, 245, 245);
+  }
+  
+  .bg {
+    background-image: url(gepuk\(1\).jpg);
+    margin-top: 0%;
+    float: left;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-color: antiquewhite;
+  }
+  
+  .welcome {
+    margin-left: 700px;
+    font-family: 'Dancing Script';
+    font-size: 40px;
+    font-weight: bolder;
+    margin-top: 100px;
+    color: rgb(21, 20, 20);
+  }
+  
+  .content {
+    margin-top: 8%;
+    margin-left: 610px;
+    font-size: 50%;
+    font-family: 'Cambria';
+    color: rgb(7, 7, 7);
+    font-size: 17px;
+    text-align: center;
+  }
+  
+  .map i {
+    font-size: 25px;
+    margin-top: 30%;
+    margin-left: 850px;
+    color: rgb(104, 85, 62);
+  }
+  
+  span {
+    font-size: 28px;
+    margin-top: 40%;
+    color: rgb(104, 85, 62);
+    text-decoration: none;
+    size: 20px;
+
+  }
+      @media screen and (max-width: 600px) {
+        .bg {
+          background-image: none;
+          background-color: antiquewhite;
+        }
+        .welcome {
+          margin-left: 30px;
+          font-size: 30px;
+          margin-top: 40px;
+          text-align: center;
+          font-family: 'Dancing Script';
+        }
+        .content {
+          margin-top: 20px;
+          margin-left: 20px;
+          font-size: 14px;
+          text-align: center;
+        }
+        .map i {
+          margin-left: 50%;
+        }
+        span {
+          margin-top: 10px;
+          font-size: 20px;
+        }
+    }
